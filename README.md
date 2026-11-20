@@ -53,14 +53,6 @@ A production-grade, full-stack esports tournament web application engineered acc
 
 ---
 
-## 🇮🇳 Currency Standardization (Indian Rupees — ₹)
-
-All monetary representations throughout ArenaHQ use **Indian Rupees (₹)**:
-- **Consistent Helper**: Frontend utilizes `formatINR()` located in `src/utils/currency.ts` leveraging the `en-IN` locale and guaranteed `₹` symbol prefix (e.g., `₹50,000.00`, `₹1,500.00`).
-- **Preserved Numeric Values**: Numeric figures in the database and APIs remain clean floats/decimals without artificial unit conversions.
-- **Universal Application**: Entry fees, payment transaction amounts, placement prize rewards, net revenue aggregates, and sponsor capital contributions all render in INR across cards, tables, dashboards, modals, and detail pages.
-
----
 
 ## 🛠️ Technology Stack
 
